@@ -2,6 +2,8 @@ import json
 import requests
 from requests.structures import CaseInsensitiveDict
 
+#todo change the +7 in the below code to fix datekeeping issue
+
 def getSession_ID(year,month,day):
     url = "https://partners.api.skyscanner.net/apiservices/v3/flights/live/search/create"
     headers = CaseInsensitiveDict()
