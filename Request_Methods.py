@@ -11,6 +11,9 @@ def getSession_ID(year,month,day):
            % (year,month,day,day+7)
     resp = requests.post(url, headers=headers, data=data)
     json_data = resp.json()
+    f = open("json_data.txt", "w")
+    f.write(json.dumps(json_data, indent=2))
+    f.close()
     return json_data['sessionToken']
 
 def getFlightPrices(SESSION_ID):
