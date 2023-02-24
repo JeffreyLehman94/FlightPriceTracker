@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a7761a5-3403-40bf-8b6b-9aa25ef94157" name="Changes" comment="Get cheapest flight + print">
-      <change afterPath="$PROJECT_DIR$/json_data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prices.db" afterDir="false" />
+    <list default="true" id="8a7761a5-3403-40bf-8b6b-9aa25ef94157" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Helper_Methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helper_Methods.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Request_Methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/Request_Methods.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" afterPath="$PROJECT_DIR$/test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prices.db" beforeDir="false" afterPath="$PROJECT_DIR$/prices.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +34,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jeff\Desktop\Python\Airlines" />
@@ -93,13 +91,29 @@
       <option name="project" value="LOCAL" />
       <updated>1676165736572</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Write to a database sqlite">
+      <created>1676169206039</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676169206039</updated>
+    </task>
+    <task id="LOCAL-00004" summary="todo comment">
+      <created>1676169276715</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676169276715</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit" />
     <MESSAGE value="Get cheapest flight + print" />
-    <option name="LAST_COMMIT_MESSAGE" value="Get cheapest flight + print" />
+    <MESSAGE value="Write to a database sqlite" />
+    <MESSAGE value="todo comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="todo comment" />
   </component>
 </project>
